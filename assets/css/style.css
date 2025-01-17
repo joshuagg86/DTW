@@ -1328,11 +1328,15 @@ button {
 
 /*---==========================
    03. Start Hero Section css 
-=========================---*/
+
 .bg-page {
     background: -webkit-gradient(linear, left top, right top, from(rgba(244, 154, 40, 0.3)), to(rgba(14, 79, 158, 0.3)));
     background: -o-linear-gradient(left, rgba(244, 154, 40, 0.3) 0%, rgba(14, 79, 158, 0.3) 100%);
     background: linear-gradient(90deg, rgba(244, 154, 40, 0.3) 0%, rgba(14, 79, 158, 0.3) 100%);
+}=========================---*/
+
+.bg-page {
+    background-color: #fff;
 }
 
 .hero-banner-v1{
