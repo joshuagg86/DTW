@@ -45,6 +45,18 @@
 /* Nice-select css */
 @import url(../vendor/nice-select/css/nice-select.css);
 
+/* Ocultar en dispositivos con ancho máximo de 768px (típico para móviles y tablets) */
+.ocultar-en-movil {
+    display: none;
+}
+
+/* Mostrar en dispositivos con ancho mayor a 768px (típico para escritorio) */
+@media (min-width: 769px) {
+    .ocultar-en-movil {
+        display: block; /* Cambia a inline, flex, grid o lo que necesites */
+    }
+}
+
 /* Root css */
 
 .row-team {
