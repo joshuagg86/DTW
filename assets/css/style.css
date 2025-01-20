@@ -57,6 +57,27 @@
     }
 }
 
+/* Imagenes team */
+/* Estilo base para la imagen */
+.img-team img {
+    width: 100%; /* Asegúrate de que la imagen ocupe el ancho completo de su contenedor */
+    height: auto; /* Mantén las proporciones de la imagen */
+    transition: transform 0.5s ease; /* Suaviza la animación del zoom */
+}
+
+/* Agrega el efecto de zoom al pasar el mouse */
+.img-team:hover img {
+    transform: scale(1.2); /* Incrementa el tamaño al 120% */
+}
+
+.redes-f {
+    align-items: left;
+    width: 120%;
+    padding-right: 10px;
+}
+.logo-f {
+    width: 80%;
+}
 /* Root css */
 
 .row-team {
@@ -4716,6 +4737,9 @@ button {
     background-color: rgba(233, 223, 86, 0.718);
     -webkit-filter: blur(100px);
             filter: blur(100px);
+}
+.copyright-text {
+    font-size: 16px;
 }
 .footer-gradient-bg .footer-copyright .copyright-text p,
 .footer-gradient-bg .footer-copyright .footer-nav ul li a,
