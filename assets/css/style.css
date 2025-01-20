@@ -46,6 +46,12 @@
 @import url(../vendor/nice-select/css/nice-select.css);
 
 /* Root css */
+
+.row-team {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en varias líneas si es necesario */
+}
 :root {
 	--text-color: #191919;
 	--heading: #0e4f9e;
@@ -1344,7 +1350,7 @@ button {
 */
 .hero-banner-v0{
     z-index: 1;
-    padding: 215px 0 180px;   
+    padding: 50px 0 100px;   
 }
 .hero-banner-v0:after{
     position: absolute;
@@ -1376,7 +1382,7 @@ button {
 */
 .hero-banner-v1{
     z-index: 1;
-    padding: 215px 0 180px;   
+    padding: 180px 0 180px;   
 }
 .hero-banner-v1:after{
     position: absolute;
