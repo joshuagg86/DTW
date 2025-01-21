@@ -141,8 +141,8 @@ h1{
     line-height: 75px;
 }
 h2{
-    font-size: 55px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 45px;
 }
 h3{
     font-size: 27px;
@@ -189,7 +189,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	color: var(--text-color);
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 25px;
 	overflow-x: hidden;
 }
@@ -266,7 +266,7 @@ ul.social-link li{
     margin-bottom: 22px;
 }
 .section-title p{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 .section-title-white .st-one:after{
@@ -1828,7 +1828,7 @@ button {
 .service-item{
     position: relative;
     z-index: 1;
-    padding: 50px 55px 40px;
+    padding: 50px 40px 40px;
     border-radius: 7px;
     background-color: #fff;
     border: 1px solid rgba(88, 86, 233, 0.2);
@@ -1913,7 +1913,7 @@ button {
 .service-style-two:hover .text .list-style-two li,
 .service-style-two:hover .btn-link,
 .service-style-two:hover .icon i{
-    color: #fff;
+    color: #353535;
 }
 .service-area-v2 .service-wrapper{
     position: relative;
@@ -1923,7 +1923,7 @@ button {
     border-radius: 7px;
 }
 .service-style-three:hover .text .btn-link-two:before{
-    background-color: #fff;
+    background-color: #353535;
 }
 /*---==========================
    End Service Section css 
@@ -3641,7 +3641,6 @@ button {
     font-weight: 500;
 }
 .list-style-two li:before{
-    content: '\f061';
     margin-right: 15px;
 }
 /*---==================
