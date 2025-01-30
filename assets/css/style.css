@@ -59,6 +59,11 @@
 
 /* Imagenes team */
 /* Estilo base para la imagen */
+.img-valores img {
+    width: 50%; /* Asegúrate de que la imagen ocupe el ancho completo de su contenedor */
+    height: 100%; /* Mantén las proporciones de la imagen */
+    transition: transform 0.5s ease; /* Suaviza la animación del zoom */
+}
 .img-team img {
     width: 100%; /* Asegúrate de que la imagen ocupe el ancho completo de su contenedor */
     height: auto; /* Mantén las proporciones de la imagen */
@@ -67,6 +72,9 @@
 
 /* Agrega el efecto de zoom al pasar el mouse */
 .img-team:hover img {
+    transform: scale(1.2); /* Incrementa el tamaño al 120% */
+}
+.img-valores:hover img {
     transform: scale(1.2); /* Incrementa el tamaño al 120% */
 }
 
@@ -1692,7 +1700,7 @@ button {
     left: -30px;
 }
 .about-area-v1 .img-holder img{
-    border-radius: 250px;
+    border-radius: 0px;
 }
 .about-area-v1 .text-wrapper h4{
     font-size: 22px;
