@@ -1373,7 +1373,7 @@ button {
 */
 .hero-banner-v1{
     z-index: 1;
-    padding: 180px 0 350px;   
+    padding: 180px 0 100px;   
 }
 .hero-banner-v1:after{
     position: absolute;
@@ -1425,11 +1425,12 @@ button {
     border-radius: 121px;
 }
 .hero-banner-v1 .hero-img.hero-img-two{
-    bottom: 80px;
+    bottom: -80px;
     right: 150px;
 }
 .hero-banner-v1 .hero-img.hero-img-two img{
     border-radius: 245px;
+    max-width: 80%;
 }
 .hero-banner-v1 .hero-img.hero-img-three{
     bottom: 190px;
@@ -1705,6 +1706,7 @@ button {
 }
 .about-area-v1 .img-holder img{
     border-radius: 0px;
+    max-width: 85%;
 }
 .about-area-v1 .text-wrapper h4{
     font-size: 22px;
